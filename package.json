@@ -1,0 +1,20 @@
+{
+  "name": "flaw",
+  "version": "0.0.0",
+  "description": "Lightweight and simple error creation in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/killdream/flaw.git"
+  },
+  "keywords": [
+    "error",
+    "handling",
+    "exception"
+  ],
+  "author": "Quildreen \"Sorella\" Motta <quildreen@gmail.com>",
+  "license": "MIT"
+}
