@@ -23,12 +23,20 @@
   "devDependencies": {
     "chai": "~1.5.0",
     "LiveScript": "~1.1.1",
-    "mocha": "~1.8.1"
+    "mocha": "~1.8.1",
+    "claire-mocha": "~0.1.1",
+    "claire": "~0.1.0"
   },
   "calliope": {
     "output": "docs/api",
     "copyright": "© 2013 Quildreen \"Sorella\" Motta",
-    "packages": [{"files":["src/*.ls"]}]
+    "packages": [
+      {
+        "files": [
+          "src/*.ls"
+        ]
+      }
+    ]
   },
   "testling": {
     "files": "test/*.js",
