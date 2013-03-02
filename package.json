@@ -4,10 +4,10 @@
   "description": "Lightweight and simple error creation in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test-cc": "lsc -c test/*.ls",
+    "test": "./node_modules/.bin/mocha",
+    "test-cc": "./node_modules/.bin/lsc -c test/*.ls",
     "pretest": "npm run-script prepublish && npm run-script test-cc",
-    "prepublish": "lsc -o . -c src/index.ls"
+    "prepublish": "./node_modules/.bin/lsc -o . -c src/index.ls"
   },
   "repository": {
     "type": "git",
