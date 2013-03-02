@@ -1,7 +1,11 @@
 Flaw
 ====
 
+[![Build Status](https://travis-ci.org/killdream/flaw.png)](https://travis-ci.org/killdream/flaw)
+
 Lightweight and simple error creation in JavaScript.
+
+[![browser support](http://ci.testling.com/killdream/flaw.png)](http://ci.testling.com/killdream/flaw)
 
 
 ### Example

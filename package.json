@@ -4,7 +4,10 @@
   "description": "Lightweight and simple error creation in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-cc": "lsc -c test/*.ls",
+    "pretest": "npm run-script prepublish && npm run-script test-cc",
+    "prepublish": "lsc -o . -c src/index.ls"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,41 @@
     "exception"
   ],
   "author": "Quildreen \"Sorella\" Motta <quildreen@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "LiveScript": "~1.1.1",
+    "mocha": "~1.8.1"
+  },
+  "calliope": {
+    "output": "docs/api",
+    "copyright": "© 2013 Quildreen \"Sorella\" Motta",
+    "packages": [{"files":["src/*.ls"]}]
+  },
+  "testling": {
+    "files": "test/*.js",
+    "preprocess": "npm run-script pretest",
+    "browsers": {
+      "ie": [
+        8,
+        9,
+        10
+      ],
+      "firefox": [
+        15,
+      ],
+      "chrome": [
+        21,
+        22,
+      ],
+      "opera": [
+        11,
+        12,
+      ],
+      "safari": [
+        5.1
+      ]
+    },
+    "harness": "mocha"
+  }
 }
