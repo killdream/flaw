@@ -41,27 +41,16 @@
   "testling": {
     "files": "test/*.js",
     "preprocess": "npm run-script pretest",
-    "browsers": {
-      "ie": [
-        8,
-        9,
-        10
-      ],
-      "firefox": [
-        15
-      ],
-      "chrome": [
-        21,
-        22
-      ],
-      "opera": [
-        11,
-        12
-      ],
-      "safari": [
-        5.1
-      ]
-    },
+    "browsers": [
+      "ie/6..latest",
+      "chrome/25..latest",
+      "firefox/20..latest",
+      "opera/11.0..latest",
+      "safari/latest",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ],
     "harness": "mocha"
   }
 }
