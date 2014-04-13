@@ -1,11 +1,14 @@
 Flaw
 ====
 
-[![Build Status](https://travis-ci.org/killdream/flaw.png)](https://travis-ci.org/killdream/flaw)
+[![Build Status](https://secure.travis-ci.org/robotlolita/flaw.png?branch=master)](https://travis-ci.org/robotlolita/flaw)
+[![NPM version](https://badge.fury.io/js/flaw.png)](http://badge.fury.io/js/flaw)
+[![Dependencies Status](https://david-dm.org/robotlolita/flaw.png)](https://david-dm.org/robotlolita/flaw)
+[![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://github.com/hughsk/stability-badges)
 
 Lightweight and simple error creation in JavaScript.
 
-[![browser support](http://ci.testling.com/killdream/flaw.png)](http://ci.testling.com/killdream/flaw)
+[![browser support](http://ci.testling.com/robotlolita/flaw.png)](http://ci.testling.com/robotlolita/flaw)
 
 
 ### Example
